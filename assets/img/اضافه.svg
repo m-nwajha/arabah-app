@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="55" viewBox="0 0 111 55">
+  <defs>
+    <filter id="Rectangle_49" x="0" y="0" width="111" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="button" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_49)">
+      <rect id="Rectangle_49-2" data-name="Rectangle 49" width="93" height="37" rx="8" transform="translate(9 6)" fill="#38bb94"/>
+    </g>
+    <text id="إضافة" transform="translate(77 23)" fill="#fff" font-size="15" font-family="Montserrat-Arabic-Light, Montserrat-Arabic" font-weight="300" letter-spacing="0.02em"><tspan x="-43.29" y="0">إضافة</tspan></text>
+    <text id="_" data-name="+" transform="translate(24 23)" fill="#fff" font-size="15" font-family="Montserrat-Arabic-Bold, Montserrat-Arabic" font-weight="700" letter-spacing="0.02em"><tspan x="-7.665" y="0">+</tspan></text>
+  </g>
+</svg>
+

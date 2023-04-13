@@ -1,0 +1,21 @@
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.5" height="55" viewBox="0 0 116.5 55">
+  <defs>
+    <filter id="Rectangle_49" x="0" y="0" width="116.5" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="button" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_49)">
+      <rect id="Rectangle_49-2" data-name="Rectangle 49" width="98.5" height="37" rx="8" transform="translate(9 6)" fill="#4c70f0"/>
+    </g>
+    <text id="تصدير" transform="translate(82.5 23)" fill="#fff" font-size="15" font-family="Montserrat-Arabic-Light, Montserrat-Arabic" font-weight="300" letter-spacing="0.02em"><tspan x="-41.16" y="0">تصدير</tspan></text>
+    <g id="Q3_icons" data-name="Q3 icons" transform="translate(12 9.5)">
+      <path id="Path_471" data-name="Path 471" d="M4.675,4h12.15a.675.675,0,0,1,0,1.35H4.675a.675.675,0,1,1,0-1.35Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_472" data-name="Path 472" d="M21.2,14.183l-2.025-1.991a.641.641,0,0,0-.945,0L16.2,14.183a.709.709,0,0,0-.068.911.641.641,0,0,0,1.013.068l.878-.878v7.83a.675.675,0,1,0,1.35,0v-7.83l.877.878a.641.641,0,0,0,1.013-.068.709.709,0,0,0-.067-.911Z" transform="translate(-7.951 -5.29)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

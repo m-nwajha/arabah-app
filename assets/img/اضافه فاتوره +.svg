@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="55" viewBox="0 0 156 55">
+  <defs>
+    <filter id="Rectangle_49" x="0" y="0" width="156" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="اضافه_فاتوره_" data-name="اضافه فاتوره +" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_49)">
+      <rect id="Rectangle_49-2" data-name="Rectangle 49" width="138" height="37" rx="8" transform="translate(9 6)" fill="#38bb94"/>
+    </g>
+    <text id="إضافة_فاتورة" data-name="إضافة فاتورة" transform="translate(122 23)" fill="#fff" font-size="15" font-family="Montserrat-Arabic-Light, Montserrat-Arabic" font-weight="300" letter-spacing="0.02em"><tspan x="-88.425" y="0">إضافة فاتورة</tspan></text>
+    <text id="_" data-name="+" transform="translate(24 23)" fill="#fff" font-size="15" font-family="Montserrat-Arabic-Bold, Montserrat-Arabic" font-weight="700" letter-spacing="0.02em"><tspan x="-7.665" y="0">+</tspan></text>
+  </g>
+</svg>

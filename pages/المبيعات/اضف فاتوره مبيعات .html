@@ -1,0 +1,1134 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <!-- META DATA -->
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/brand/favicon.ico" />
+
+    <!-- TITLE -->
+    <title>رواق </title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <link id="style" href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- STYLE CSS -->
+    <link href="../../assets/css/style.css" rel="stylesheet" />
+    <link href="../../assets/css/transparent-style.css" rel="stylesheet">
+    <link href="../../assets/css/skin-modes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+
+    <!--- FONT-ICONS CSS -->
+    <link rel = "stylesheet" href = "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link href="../../assets/css/icons.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="app sidebar-mini rtl light-mode">
+
+
+    <!-- PAGE -->
+    <div class="page">
+        <div class="page-main">
+
+            <!-- app-Header -->
+            <div class="app-header header sticky shadow-sm py-5">
+                <div class="container-fluid main-container">
+                    <div class="d-flex">
+                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle btn btn-primary link-hover px-1 rounded-1" data-bs-toggle="sidebar" href="javascript:void(0)"></a>
+                        <!-- sidebar-toggle-->
+                        <a class="logo-horizontal d-flex" href="index.html">
+                            <img src="../../assets/images/logo.svg" class="header-brand-img mx-8" alt="logo">
+                        </a>
+                        <!-- LOGO -->
+                        <div class="main-header-center ms-3 d-none d-lg-block">
+                            <input type="text" class="form-control" id="typehead" placeholder="كلمة البحث هنا">
+                            <button class="btn px-0 pt-2"><i class="fe fe-search" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="d-flex order-lg-2 ms-auto header-right-icons">
+                            <!-- SEARCH -->
+                            <button class="navbar-toggler navresponsive-toggler text-danger d-lg-none ms-auto" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+                                aria-controls="navbarSupportedContent-4" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon fe fe-more-vertical"></span>
+                            </button>
+                            <div class="navbar navbar-collapse responsive-navbar p-0">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                                    <div class="d-flex order-lg-2">
+                                        <div class="dropdown d-lg-none d-flex">
+                                            <a href="javascript:void(0)" class="nav-link icon" data-bs-toggle="dropdown">
+                                                <i class="fe fe-search"></i>
+                                            </a>
+                                            <div class="dropdown-menu header-search dropdown-menu-start">
+                                                <div class="input-group w-100 p-2">
+                                                    <input type="text" class="form-control" placeholder="البحث....">
+                                                    <div class="input-group-text btn btn-primary">
+                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex country">
+                                            <a class="nav-link icon text-center" href="pages/اداره النظام/اعدادات النظام.html">
+                                                <i class="fa fa-cog fs-2"></i>
+                                            </a>
+                                        </div>
+                                        <!-- set -->
+
+                                        <div class="dropdown  d-flex notifications">
+                                            <a class="nav-link icon" data-bs-toggle="dropdown"><i
+                                                    class="fa fa-bell fs-2"></i><span class="badge bg-danger header-badge">6</span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <div class="drop-heading border-bottom">
+                                                    <div class="d-flex">
+                                                        <h6 class="mt-1 mb-0 fs-16 fw-semibold text-dark">جديد الاشعارات
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="header-dropdown-list message-menu">
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 4 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 4 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 4 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 4 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 4 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="#">
+                                                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary">
+                                                            <i class="fe fe-check-circle"></i>
+                                                        </div>
+                                                        <div class="mt-1 wd-80p">
+                                                            <h5 class="notification-label mb-1">نص مختصر هنا ...
+                                                            </h5>
+                                                            <span class="notification-subtext">قبل 9 ساعات</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="dropdown-divider m-0"></div>
+                                                <a href="#" class="dropdown-item text-center p-3 text-muted">مشاهدة جميع الاشعارات</a>
+                                            </div>
+                                        </div>
+                                        <!-- NOTIFICATIONS -->
+                                        <div class="dropdown d-flex profile-1">
+                                            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="nav-link  leading-none d-flex">
+                                                <h5 class="text-primary me-2 mb-0 fs-6 fw-bold"> فهد الحربي <i class="bi bi-caret-down-fill"></i></h5>
+                                                <img src="../../assets/img/Ellipse%201.png" alt="profile-user"
+                                                    class="avatar profile-user brround cover-image">
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                                <div class="drop-heading">
+                                                    <div class="text-center">
+                                                        <h5 class="text-info mb-0 fs-14 fw-semibold">فهد الحربي</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-divider m-0"></div>
+                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#profilemodal">
+                                                    <i class="dropdown-icon fs-4 las la-user-cog"></i> تعديل حسابي
+                                                </a>
+                                                <a class="dropdown-item" href="login.html">
+                                                    <i class="dropdown-icon fs-4 las la-sign-out-alt"></i> تسجيل الخروج
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /app-Header -->
+
+            <!--APP-SIDEBAR-->
+            <div class="sticky">
+              <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
+              <div class="app-sidebar">
+                  <div class="main-sidemenu">
+                      <div class="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg"
+                              fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                              <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+                          </svg></div>
+                      <ul class="side-menu">
+                          <li class="slide">
+                              <form class="d-flex side-menu__form px-2 mb-4 mt-8">
+                                  <select class="form-select form-select-md rounded-0 text-info me-4" style="width: 80%;" name="" id="">
+                                      <option value="الفرع الرئيسي">الفرع الرئيسي</option>
+                                      <option value="">نص هنا</option>
+                                      <option value="">نص هنا</option>
+                                  </select>
+                                  <button class="btn btn-info border-0 rounded-0">فتح</button>
+                              </form>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item has-link" data-bs-toggle="slide" href="../../index.html"><i
+                                      class="side-menu__icon bi bi-house-door-fill"></i><span
+                                      class="side-menu__label">الرئيسية</span></a>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item has-link" data-bs-toggle="slide" href="../نقاط البيع/نقاط البيع.html"><i
+                                      class="side-menu__icon bi bi-grid-3x3-gap-fill"></i><span
+                                      class="side-menu__label">نقاط البيع</span></a>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon fa fa-archive"></i><span
+                                      class="side-menu__label">المخزون</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">المخزون</a></li>
+                                  <li><a href="../المخزون/اصناف تحت حد الطلب.html" class="slide-item">أصناف تحت حد الطلب</a></li>
+                                  <li><a href="../المخزون/رصيد الاصناف.html" class="slide-item"> رصيد الفئات </a></li>
+                                  <li><a href="../المخزون/الاذوات المخزنيه.html" class="slide-item"> الاذونات المخزنيه </a></li>
+                                  <li><a href="../المخزون/فئات الاصناف.html" class="slide-item"> الفئات </a></li>
+                                  <li><a href="../المخزون/حركة الاصناف.html" class="slide-item"> حركة الأصناف </a></li>
+                                  <li><a href="../المخزون/سريالات الاصناف.html" class="slide-item"> سريالات الأصناف </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon bi bi-pie-chart-fill"></i><span
+                                      class="side-menu__label">المصروفات</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">المصروفات</a></li>
+                                  <li><a href="../المصروفات/تسجيل رصيد بداية.html" class="slide-item">تسجيل رصيد البداية</a></li>
+                                  <li><a href="../المصروفات/النقديه و المصروفات.html" class="slide-item">النقدية و المصروفات</a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon bi bi-journals"></i><span
+                                      class="side-menu__label">التقارير</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">التقارير</a></li>
+                                  <li><a href="../التقارير/تقرير مبيعات الأصناف.html" class="slide-item">تقرير مبيعات الأصناف</a></li>
+                                  <li><a href="../التقارير/تقارير رصيد الخزينه.html" class="slide-item">تقرير رصيد الخزينة</a></li>
+                                  <li><a href="../التقارير/تقرير الأرباح و الخسائر.html" class="slide-item">تقرير الأرباح و الخسائر</a></li>
+                                  <li><a href="../التقارير/تقرير الصندوق.html" class="slide-item">تقرير الصندوق </a></li>
+                                  <li><a href="../التقارير/تقرير ضريبة القيمة المضافة.html" class="slide-item">تقرير ضريبة القيمة المضافة</a></li>                                    
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon bi bi-diagram-3-fill"></i><span
+                                      class="side-menu__label">الموردين</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">الموردين</a></li>
+                                  <li><a href="../الموردين/الموردين.html" class="slide-item">قائمة الموردين</a></li>
+                                  <li><a href="../الموردين/سندات الصرف.html" class="slide-item"> سندات الصرف </a></li>
+                                  <li><a href="../الموردين/بيانات المورد.html" class="slide-item"> بيانات المورد </a></li>                                
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon bi bi-graph-up"></i><span
+                                      class="side-menu__label">المبيعات</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">المبيعات</a></li>
+                                  <li><a href="../المبيعات/المبيعات.html" class="slide-item">قائمة المبيعات</a></li>
+                                  <li><a href="../المبيعات/مرتجعات المبيعات.html" class="slide-item">مرتجع المبيعات</a></li>
+                                  <li><a href="../المبيعات/عروض الاسعار.html" class="slide-item"> عروض الأسعار</a></li>
+                                  <li><a href="../المبيعات/فواتير المبيعات.html" class="slide-item"> فواتير المبيعات</a></li>
+                                  <li><a href="../المبيعات/اضف فاتوره مبيعات .html" class="slide-item"> أضف فاتورة </a></li>                                
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon bi bi-cash-coin"></i><span
+                                      class="side-menu__label">المشتريات</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">المشتريات</a></li>
+                                  <li><a href="../المشتريات/المشتريات.html" class="slide-item">المشتريات</a></li>
+                                  <li><a href="../المشتريات/مرتجعات المشتريات.html" class="slide-item">مرتجع المشتريات </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon fa fa-product-hunt"></i><span
+                                      class="side-menu__label">المنتجات</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">المنتجات</a></li>
+                                  <li><a href="../المنتجات/المنتجات.html" class="slide-item">المنتجات</a></li>
+                                  <li><a href="../المنتجات/اضف منتج.html" class="slide-item"> أضف منتج </a></li>
+                                  <li><a href="../المنتجات/اضافه المنتجات.html" class="slide-item"> إضافة (استراد) منتجات </a></li>
+                                  <li><a href="../المنتجات/طباعة باركود.html" class="slide-item"> طباعة باركود </a></li>
+                                  <li><a href="../المنتجات/طباعة ملصق.html" class="slide-item"> طباعة ملصق </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon fa fa-id-card"></i><span
+                                      class="side-menu__label">الموظفين</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">الموظفين</a></li>
+                                  <li><a href="../بيانات الموظفين/بيانات الموظفين.html" class="slide-item">بيانات الموظفين</a></li>
+                                  <li><a href="../بيانات الموظفين/رواتب الموظفين.html" class="slide-item">رواتب الموظفين</a></li>                                
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon las la-hand-holding-usd"></i><span
+                                      class="side-menu__label">بطاقات الهدايا</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">بطاقات الهدايا</a></li>
+                                  <li><a href="../بطاقات الهدايا/قائمه بطاقات الهدايا.html" class="slide-item">بطاقات الهدايا</a></li>
+                                  <li><a href="../بطاقات الهدايا/اضف بطاقه.html" class="slide-item">أضف بطاقة </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon fa fa-folder"></i><span
+                                      class="side-menu__label">الفئات</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">الفئات</a></li>
+                                  <li><a href="../الفئات/الفئات.html" class="slide-item">قائمة الفئات</a></li>
+                                  <li><a href="../الفئات/اضافه فئه.html" class="slide-item"> إضافة فئة </a></li>
+                                  <li><a href="../الفئات/استراد الفئات.html" class="slide-item"> استراد الفئات </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon las la-users"></i><span
+                                      class="side-menu__label">العملاء</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">العملاء</a></li>
+                                  <li><a href="../العملاء/العملاء.html" class="slide-item">قائمة العملاء</a></li>
+                                  <li><a href="../العملاء/بيانات العميل.html" class="slide-item"> بيانات العميل </a></li>
+                                  <li><a href="../العملاء/سندات القبض.html" class="slide-item"> سندات القبض</a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon las la-file-invoice"></i><span
+                                      class="side-menu__label">الفوترة الإلكترونية</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">الفوترة الإلكترونية</a></li>
+                                  <li><a href="../الفوترة الالكترونية/حالة الفواتير.html" class="slide-item">حالة الفواتير</a></li>
+                                  <li><a href="../الفوترة الالكترونية/عرض اجهزة البيع.html" class="slide-item">عرض أجهزة البيع</a></li>
+                                  <li><a href="../الفوترة الالكترونية/اضافه جهاز بيع جديد.html" class="slide-item">إضافة جهاز بيع جديد</a></li>                                    
+                              </ul>
+                          </li>
+
+                          <li class="sub-category">
+                              <h3>الإعدادات</h3>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
+                                      class="side-menu__icon fa fa-sliders"></i><span
+                                      class="side-menu__label">إدارة النظام</span><i
+                                      class="angle fs-6 fw-bold fe fe-chevron-right"></i></a>
+                              <ul class="slide-menu">
+                                  <li class="side-menu-label1"><a href="javascript:void(0)">إدراة النظام</a></li>
+                                  <li><a href="../اداره النظام/المستخدمين.html" class="slide-item">المستخدمين</a></li>
+                                  <li><a href="../اداره النظام/مجموعات المستخدمين.html" class="slide-item">مجموعات المستخدمين</a></li>
+                                  <li><a href="../اداره النظام/الحسابات البنكية.html" class="slide-item"> الحسابات البنكية </a></li>
+                                  <li><a href="../اداره النظام/الفروع والمستودعات.html" class="slide-item">الفروع و المستودعات</a></li>
+                                  <li><a href="../اداره النظام/اجهزه الدفع.html" class="slide-item">أجهزة الدفع</a></li>
+                                  <li><a href="../اداره النظام/المناطق.html" class="slide-item">المناطق</a></li>
+                                  <li><a href="../اداره النظام/اعدادات النظام.html" class="slide-item">الاعدادت</a></li>
+                                  <li><a href="../اداره النظام/بيانات المؤسسه.html" class="slide-item">معلومات المؤسسة <br> و الاشتراك</a></li>
+                                  <li><a href="../اداره النظام/الفروع.html" class="slide-item"> الفروع</a></li>
+                                  <li><a href="../اداره النظام/اضافه الفرع.html" class="slide-item"> أضف فرع</a></li>
+                                  <li><a href="../اداره النظام/الطابعات.html" class="slide-item"> الطابعات </a></li>
+                                  <li><a href="../اداره النظام/اضافه طابعه.html" class="slide-item"> إضافة طابعة </a></li>
+                                  <li><a href="../اداره النظام/النسخ الاحتياطي.html" class="slide-item"> النسخ الاحتياطي </a></li>
+                              </ul>
+                          </li>
+                          <li class="slide">
+                              <a class="side-menu__item has-link" data-bs-toggle="slide" href="index.html"><i
+                                      class="side-menu__icon fw-bold bi bi-box-arrow-right" style="color: var(--bs-danger) !important;"></i><span
+                                      class="side-menu__label fw-bold" style="color: var(--bs-danger) !important;">تسجيل الخروج</span></a>
+                          </li>
+                      </ul>
+                      <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
+                              width="24" height="24" viewBox="0 0 24 24">
+                              <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
+                          </svg></div>
+                  </div>
+              </div>
+              <!--/APP-SIDEBAR-->
+          </div>
+
+
+            <!--app-content open-->
+            <div class="main-content app-content mt-6">
+                <div class="side-app">
+
+                    <!-- CONTAINER -->
+                    <div class="main-container container-fluid">
+
+
+                        <!-- ROW-1 -->
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="card-title my-2 mb-5 fs-4 fw-bold text-primary">إضافة فاتورة</h5> 
+                          </div>                     
+                        <!-- ROW-1 END -->
+                        </div>
+
+                        <!--row2-->
+                        <div class="row">
+                          <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                           <div class="card-body p-0 row">
+                             <div class="col-12 col-md-12 mt-4">
+                               <form class="row justify-content-start align-items-center">
+                                 <div class="col-6 text-start mb-4">
+                                  <label for="exampleInputEmail1">من تاريخ</label>
+                                   <input type="date" class="form-control" placeholder="ملاحظات مرجعيه">
+                                 </div>
+                                 <div class="col-6 text-start mb-4">
+                                  <label for="exampleInputEmail1">العميل</label>
+                                  <select class="form-select" style="width: 70%;" id="autoSizingSelect">
+                                    <option selected>اختيار...</option>
+                                    <option value="1">عميل نقدي</option>
+                                    <option value="2">عميل أخر</option>
+                                  </select>                                
+                                </div>
+                               </form>
+                               <div class="row">
+                                <div class="col-12">
+                                  <div class="card">
+                                    <div class="card-header border-0">
+                                      <h5 class="card-title my-2 mb-5 fs-4 fw-bold text-primary">فئات الأصناف</h5> 
+                                    </div>
+                                    <div class="card-body p-0" style="height: 200px;  overflow: auto;">
+                                      <div class="row">
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div  style="margin-inline:auto; background:#4c70f0; height: 90px !important;" class="selling-points-product align-items-center justify-content-center">
+                                              <p class="mt-3 text-white fw-bold">اسم الفئة</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="card">
+                                    <div class="card-header border-0">
+                                      <h5 class="card-title my-2 mb-5 fs-4 fw-bold text-primary">فئات الأصناف</h5> 
+                                    </div>
+                                    <div class="card-body p-0" style="height: 200px;  overflow: auto;">
+                                      <div class="row">
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-6 col-lg-5 py-4">
+                                          <div style="margin-inline:auto; background-image: url(https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg);" class="selling-points-product">
+                                            <div class="selling-points-product-name">
+                                              <p class="mt-3">اسم المنتج</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                               </div>
+                             </div>
+                           </div>
+                          </div>
+                           <div class="col-lg-8 col-md-12 col-sm-12 col-xl-8">
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+                               <div class="card-body p-0 row">
+                                 <div class="col-12 col-md-12 mb-4">
+                                   <div class="row mb-5">
+                                     <div class="col-12 col-md-5 text-start align-self-end">
+                                       <h5 class="card-title my-2 fs-6 fw-bold text-primary">اضف فاتوره المبيعات</h5>
+                                     </div>
+                                     <div class="col-12 col-md-7 align-self-end">
+                                       <div class="d-inline-flex justify-content-center">
+                                         <button type="submit" class="btn btn-sm btn-success mx-2" data-bs-toggle="modal" data-bs-target="#إضافة_عميل"><i class="fa fa-user-plus" aria-hidden="true"></i> اضافة عميل جديد</button>
+                                         <a href="../المبيعات/فواتير المبيعات.html" class="btn btn-sm btn-info mx-2"><i class="fa fa-clipboard" aria-hidden="true"></i> عرض كل الفواتير</a>
+                                       </div>
+                                     </div>
+                                   </div>
+                                          <!--اضافة عميل جديد-->
+                        <div class="modal fade" id="إضافة_عميل" tabindex="-1" role="dialog">
+                          <div class="modal-dialog modal-lg" role="document">
+                              <div class="modal-content">
+                                  <div class="modal-header border-0">
+                                    <h5 class="modal-title">إضافة عميل جديد</h5>
+                                      <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                              </button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <div class="row card-body text-info">
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">الاسم بالعربي **</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">الاسم بالانجليزي **</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">الرقم الجوال 1 **</label>
+                                            <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">رقم الجوال 2</label>
+                                            <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">العنوان **</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">المنطقه</label>
+                                            <select class="form-select">
+                                              <option value="none" selected="" disabled="" hidden="">--اختر--</option>
+                                              <option value="الجوف">الجوف</option>
+                                              <option value="الحدود الشمالية">الحدود الشمالية</option>
+                                              <option value="الخبر">الخبر</option>
+                                              <option value="الدمام">الدمام</option>
+                                              <option value="القصيم">القصيم</option>
+                                              <option value="المدينة المنورة">المدينة المنورة</option>
+                                              <option value="تبوك">تبوك</option>
+                                              <option value="جنوب الرياض">جنوب الرياض</option>
+                                              <option value="حائل">حائل</option>
+                                              <option value="شرق الرياض">شرق الرياض</option>
+                                              <option value="شمال الرياض">شمال الرياض</option>
+                                              <option value="عسير">عسير</option>
+                                              <option value="غرب الرياض">غرب الرياض</option>
+                                              <option value="مكه المكرمه">مكة المكرمة</option>
+                                              <option value="نجران">نجران</option>
+                                            </select>                                          
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">البريد الإلكترونى</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">الرقم الضريبي</label>
+                                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">ملاحظات</label>
+                                            <textarea name="" id="" class="form-control" rows="2"></textarea>
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">رقم السجل التجاري</label>
+                                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-group">
+                                            <label class="text-danger">ملاحظة: يجب إدخال الهوية الوطنية للعميل فقط للفواتير المتعلقة بالخدمات الصحية الخاصة أو التعليم الأهلي
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">نوع المعرف </label>
+                                            <select class="form-select">
+                                                <option value="none" selected="" disabled="" hidden="">--اختر--</option>
+                                                <option value="  الهوية الوطنية"> الهوية الوطنية</option>
+                                                <option value="الحدود الشمالية">الحدود الشمالية</option>
+                                                <option value=" رقم الإقامة  "> رقم الإقامة </option>
+                                                <option value=" جواز السفر "> جواز السفر </option>
+                                                <option value=" رقم 700"> رقم 700</option>
+                                                <option value=" TIN الرقم الضريبي المميز  "> TIN الرقم الضريبي المميز </option>
+                                                <option value="CR السجل التجاري  ">CR السجل التجاري </option>
+                                                <option value="ترخيص وزارة الشؤون البلدية والقروية">ترخيص وزارة الشؤون البلدية والقروية </option>
+                                                <option value=" ترخيص وزارة الموارد البشرية والتنمية االجتماعية "> ترخيص وزارة الموارد البشرية والتنمية
+                                                  االجتماعية </option>
+                                              </select>                                          
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">رقم المعرف</label>
+                                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="">
+                                          </div>
+                                        </div>
+                                      </div>                
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                                      <button class="btn btn-info">أضف عميل</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> 
+                                   <form class="row d-none justify-content-center align-items-center">
+                                     <div class="col-auto text-start mb-4">
+                                      <label for="form-label">كود الصنف</label>
+                                      <select class="form-select" id="autoSizingSelect">
+                                        <option selected>اختيار...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                     </div>
+                                     <div class="col-auto text-start mb-4">
+                                      <label for="form-label">كود الصنف</label>
+                                      <select class="form-select" id="autoSizingSelect">
+                                        <option selected>اختيار...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                     </div>
+                                     <div class="col-auto text-start mb-4">
+                                      <label for="form-label">كود الصنف</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                   </form>
+                                 </div>
+                               </div>
+                              </div>
+                               <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+                                 <div class="card p-0 border border-1">
+                                   <div class="card-body p-1">
+                                     <div class="table-responsive">
+                                         <table class="table table-hover table-bordered border text-nowrap mb-0 text-center">
+                                             <thead>
+                                                 <tr>
+                                                     <th  class="text-info fs-6 fw-bold">رقم</th>
+                                                     <th  class="text-info fs-6 fw-bold">اسم الصنف</th>
+                                                     <th  class="text-info fs-6 fw-bold">سعر شامل الضريبه</th>
+                                                     <th  class="text-info fs-6 fw-bold">سعر بدون الضريبه	</th>
+                                                     <th  class="text-info fs-6 fw-bold">خصم الوحده</th>
+                                                     <th  class="text-info fs-6 fw-bold">العدد</th>
+                                                     <th  class="text-info fs-6 fw-bold">الاجمالي</th>
+                                                     <th  class="text-info fs-6 fw-bold">مبلغ الخصم</th>
+                                                     <th  class="text-info fs-6 fw-bold"> </th>
+                                                 </tr>
+                                             </thead>
+                                             <tbody>
+                                                 <tr>
+                                                     <td>01</td>
+                                                     <th>اسم الصنف</th>
+                                                     <th>0.00 SR	</th>
+                                                     <th>0.00 SR	</th>
+                                                     <th>0.00 SR	</th>
+                                                     <th>0.00 SR	</th>
+                                                     <th>0.00 SR	</th>
+                                                     <th>0.00 SR	</th>
+                                                     <td>
+                                                       <div>
+                                                         <button id="" type="button" class="btn btn-sm btn-danger">
+                                                           <span class="fa fa-trash-o"> </span>
+                                                         </button>
+                                                       </div>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                  <td>01</td>
+                                                  <th>اسم الصنف</th>
+                                                  <th>0.00 SR	</th>
+                                                  <th>0.00 SR	</th>
+                                                  <th>0.00 SR	</th>
+                                                  <th>0.00 SR	</th>
+                                                  <th>0.00 SR	</th>
+                                                  <th>0.00 SR	</th>
+                                                  <td>
+                                                    <div>
+                                                      <button id="" type="button" class="btn btn-sm btn-danger">
+                                                        <span class="fa fa-trash-o"> </span>
+                                                      </button>
+                                                    </div>
+                                                  </td>
+                                              </tr>
+                                             </tbody>
+                                         </table>
+                                     </div>
+                                 </div>
+                                 <div class="card-footer">
+                                  <div class="row">
+                                    <div class="col-12 col-md-4 mb-4 align-self-center">
+                                      <h5 class="card-title text-info fs-5 fw-bold">المجموع</h5>
+                                    </div>
+                                    <div class="col-12 col-md-8 align-items-center text-white bg-primary">
+                                      <ul class="list-inline mt-4 d-flex align-self-center justify-content-between">
+                                        <li class="list-inline-item"><p>00</p></li>
+                                        <li class="list-inline-item"><p>00</p></li>
+                                        <li class="list-inline-item"><p>00</p></li>
+                                        <li class="list-inline-item"><p>00</p></li>
+                                       </ul>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="switch-toggle py-5 mb-2 border-bottom d-flex">
+                                        <span class="me-auto fs-5 text-info fw-bold"> نوع الفاتورة</span>
+                                        <div class="ms-auto">
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label mx-2" for="inlineRadio1">ضريبية</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label mx-2" for="inlineRadio2">مبسطة</label>
+                                          </div>                                      
+                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="switch-toggle py-5 mb-2 border-bottom d-flex">
+                                        <span class="me-auto fs-5 text-info fw-bold"> طريقة الدفع</span>
+                                        <div class="ms-auto">
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label mx-2" for="inlineRadio1">نقدي</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label mx-2" for="inlineRadio2">آجل</label>
+                                          </div> 
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                            <label class="form-check-label mx-2" for="inlineRadio3">شبكة</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                            <label class="form-check-label mx-2" for="inlineRadio4">نقدي و شبكة</label>
+                                          </div>                                     
+                                         </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <form class="row justify-content-center align-items-center">
+                                    <div class="col-auto text-start mb-4">
+                                      <label for="form-label">اجمالي شامل الضريبة</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                    <div class="col-auto text-start mb-4">
+                                      <label for="form-label">مبلغ الضريبة</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                    <div class="col-auto text-start mb-4">
+                                      <label for="form-label">صافي لاصناف خاضعة لضريبة</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                    <div class="col-auto text-start mb-4">
+                                      <label for="form-label">صافي لاصناف غير خاضعة لضريبة</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                    <div class="col-auto text-start mb-4">
+                                      <label for="form-label">صافي دون ضريبة</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                    </div>
+                                    <div class="col-auto text-start mb-4">
+                                     <label for="form-label">اجمالي دون ضريبة</label>
+                                     <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+                                   </div>
+                                   <div class="col-auto text-start mb-4">
+                                    <label for="form-label">تاريخ التسليم</label>
+                                    <input type="date" class="form-control" id="autoSizingInput" placeholder="">
+                                  </div>
+                                  <div class="col-auto text-start mb-4">
+                                    <label for="form-label">خصومات</label>
+                                    <input class="form-check-input" style="width: 20px; height:20px;" type="checkbox" value="" id="defaultCheck1">                                  
+                                  </div>
+                                  <div class="col-auto text-start mb-4">
+                                    <label for="form-label">خصومات</label>
+                                    <input class="form-check-input" style="width: 20px; height:20px;" type="checkbox" value="" id="defaultCheck1">                                  
+                                  </div>
+                                  <div class="d-flex justify-content-center my-4">
+                                    <a href="#" class="btn btn-sm btn-info mx-2"> حفظ الفاتورة</a>
+                                    <a href="#" class="btn btn-sm btn-danger mx-2">حذف الفاتورة</a>
+                                  </div>
+                                  </form>
+                                 </div>
+                               </div>
+                           </div>
+                           <!-- ROW-1 END -->
+                       </div>
+                        <!-- ROW-1 END -->
+                        </div>
+                    <!-- CONTAINER END -->
+                </div>
+            </div>
+            <!--app-content close-->
+        </div>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <h6 class="text-primary">جميع الحقوق محفوظة <a class="text-info link-hover" href="#">رواق للتقنية المعلومات</a></h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+
+    </div>
+
+    <div class="modal fade" id="profilemodal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">تعديل حسابي</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body text-info">
+                        <div class="form-group">
+                            <label for="formFile" class="form-label mt-0">تحديث صورة الملف الشخصي</label>
+                            <input class="form-control" type="file">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleInputname">الاسم الأول</label>
+                                    <input type="text" class="form-control" id="exampleInputname" placeholder="فهد">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleInputname1">الاسم الأخير</label>
+                                    <input type="text" class="form-control" id="exampleInputname1" placeholder="الحربي">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="demo@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputnumber">رقم الهاتف</label>
+                            <input type="tel" class="form-control" id="exampleInputnumber" placeholder="">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleInputname">كلمة المرور القديمة</label>
+                                    <input type="password" class="form-control" id="exampleInputname" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleInputname1">كلمة المرور الجديدة</label>
+                                    <input type="password" class="form-control" id="exampleInputname1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                    <button class="btn btn-info">حفظ الاعدادت</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+      let counter = document.getElementById("counter");
+    const increaseButtons = document.querySelectorAll("#incButton");
+    const decreaseButtons = document.querySelectorAll("#decButton");
+    let dateP = document.querySelector('.date-p')
+
+    increaseButtons.forEach(element => {
+      element.addEventListener("click", (e) => {
+        let counterState = Number(e.target.parentNode.children[1].children[0].innerText);
+        e.target.parentNode.children[1].children[0].innerText = counterState += 1;
+      });
+    });
+
+    decreaseButtons.forEach(element => {
+
+      element.addEventListener("click", (e) => {
+        let counterState = Number(e.target.parentNode.children[1].children[0].innerText);
+        if (counterState === 0) return false
+
+        e.target.parentNode.children[1].children[0].innerText = counterState + - 1;
+
+      });
+    });
+
+
+    dateP.innerText = new Date().toJSON().slice(0, 10);
+
+</script>
+    <!-- JQUERY JS -->
+    <script src="../../assets/js/jquery.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="../../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- SPARKLINE JS-->
+    <script src="../../assets/js/jquery.sparkline.min.js"></script>
+
+    <!-- Sticky js -->
+    <script src="../../assets/js/sticky.js"></script>
+
+
+    <!-- SIDEBAR JS -->
+    <script src="../../assets/plugins/sidebar/sidebar.js"></script>
+
+    <!-- Perfect SCROLLBAR JS-->
+    <script src="../../assets/plugins/p-scroll/perfect-scrollbar.js"></script>
+    <script src="../../assets/plugins/p-scroll/pscroll.js"></script>
+    <script src="../../assets/plugins/p-scroll/pscroll-1.js"></script>
+
+    <!-- INTERNAL CHARTJS CHART JS-->
+    <script src="../../assets/plugins/chart/Chart.bundle.js"></script>
+    <script src="../../assets/plugins/chart/rounded-barchart.js"></script>
+    <script src="../../assets/plugins/chart/utils.js"></script>
+
+    <!-- INTERNAL SELECT2 JS -->
+    <script src="../../assets/plugins/select2/select2.full.min.js"></script>
+
+    <!-- INTERNAL Data tables js-->
+    <script src="../../assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="../../assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+    <script src="../../assets/plugins/datatable/dataTables.responsive.min.js"></script>
+
+    <!-- INTERNAL APEXCHART JS -->
+    <script src="../../assets/js/apexcharts.js"></script>
+    <script src="../../assets/plugins/apexchart/irregular-data-series.js"></script>
+
+    <!-- INTERNAL Flot JS -->
+    <script src="../../assets/plugins/flot/jquery.flot.js"></script>
+    <script src="../../assets/plugins/flot/jquery.flot.fillbetween.js"></script>
+    <script src="../../assets/plugins/flot/chart.flot.sampledata.js"></script>
+    <script src="../../assets/plugins/flot/dashboard.sampledata.js"></script>
+
+    <!-- INTERNAL Vector js -->
+    <script src="../../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="../../assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+    <!-- SIDE-MENU JS-->
+    <script src="../../assets/plugins/sidemenu/sidemenu.js"></script>
+
+	<!-- TypeHead js -->
+	<script src="../../assets/plugins/bootstrap5-typehead/autocomplete.js"></script>
+    <script src="../../assets/js/typehead.js"></script>
+
+    <!-- INTERNAL Edit-Table JS -->
+    <script src="../../assets/plugins/edit-table/bst-edittable.js"></script>
+    <script src="../../assets/plugins/edit-table/edit-table.js"></script>
+    <!-- INTERNAL INDEX JS -->
+    <script src="../../assets/js/index1.js"></script>
+
+    <!-- Color Theme js -->
+    <script src="../../assets/js/themeColors.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="../../assets/js/custom.js"></script>
+
+
+
+</body>
+
+</html>
